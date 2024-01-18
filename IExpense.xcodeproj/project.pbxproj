@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE58DEF42B57C1EA00198102 /* ExamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58DEF32B57C1EA00198102 /* ExamplesView.swift */; };
+		FE58DEF62B57C59400198102 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58DEF52B57C59400198102 /* ExpenseItem.swift */; };
+		FE6EC50B2B586BAE006D2138 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6EC50A2B586BAE006D2138 /* AddExpenseView.swift */; };
 		FE9762502B34A01E00010461 /* IExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97624F2B34A01E00010461 /* IExpenseApp.swift */; };
 		FE9762522B34A01E00010461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9762512B34A01E00010461 /* ContentView.swift */; };
 		FE9762542B34A01F00010461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9762532B34A01F00010461 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE58DEF32B57C1EA00198102 /* ExamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesView.swift; sourceTree = "<group>"; };
+		FE58DEF52B57C59400198102 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = SOURCE_ROOT; };
+		FE6EC50A2B586BAE006D2138 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		FE6EC50C2B590864006D2138 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FE97624C2B34A01E00010461 /* IExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97624F2B34A01E00010461 /* IExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IExpenseApp.swift; sourceTree = "<group>"; };
 		FE9762512B34A01E00010461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +58,12 @@
 		FE97624E2B34A01E00010461 /* IExpense */ = {
 			isa = PBXGroup;
 			children = (
+				FE58DEF52B57C59400198102 /* ExpenseItem.swift */,
 				FE97624F2B34A01E00010461 /* IExpenseApp.swift */,
 				FE9762512B34A01E00010461 /* ContentView.swift */,
+				FE6EC50C2B590864006D2138 /* README.md */,
+				FE6EC50A2B586BAE006D2138 /* AddExpenseView.swift */,
+				FE58DEF32B57C1EA00198102 /* ExamplesView.swift */,
 				FE9762532B34A01F00010461 /* Assets.xcassets */,
 				FE9762552B34A01F00010461 /* Preview Content */,
 			);
@@ -138,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE9762522B34A01E00010461 /* ContentView.swift in Sources */,
+				FE58DEF62B57C59400198102 /* ExpenseItem.swift in Sources */,
+				FE6EC50B2B586BAE006D2138 /* AddExpenseView.swift in Sources */,
+				FE58DEF42B57C1EA00198102 /* ExamplesView.swift in Sources */,
 				FE9762502B34A01E00010461 /* IExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,13 +209,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -249,12 +264,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
